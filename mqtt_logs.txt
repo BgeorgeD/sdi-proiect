@@ -1,0 +1,17 @@
+[2025-01-07T17:28:13.373055200] [Client1] Conexiunea la broker-ul tcp://broker.hivemq.com:1883 a fost realizată cu succes!
+[2025-01-07T17:28:13.834279400] [Client2] Conexiunea la broker-ul tcp://broker.hivemq.com:1883 a fost realizată cu succes!
+[2025-01-07T17:28:14.137763700] [Client1] Conexiunea a fost pierdută: Connection lost
+[2025-01-07T17:28:14.365008800] [Client3] Conexiunea la broker-ul tcp://broker.hivemq.com:1883 a fost realizată cu succes!
+[2025-01-07T17:28:14.368008800] [Client1] Eroare la abonare: Client is not connected
+[2025-01-07T17:28:14.729633700] [Client2] Abonat la topic-ul: topic/common
+[2025-01-07T17:28:15.227770200] [Client3] Abonat la topic-ul: topic/specific
+[2025-01-07T17:28:15.229847300] [Client1] Eroare la publicare: Client is not connected
+[2025-01-07T17:28:15.429925] [Client2] Mesaj primit de la topic-ul topic/common: Salut de la Client2!
+[2025-01-07T17:28:15.442223400] [Client2] Mesaj publicat pe topic-ul topic/common: Salut de la Client2!
+[2025-01-07T17:28:15.445740100] [Client2] Mesaj livrat complet.
+[2025-01-07T17:28:15.624243] [Client3] Mesaj primit de la topic-ul topic/specific: Mesaj privat de la Client3.
+[2025-01-07T17:28:15.820896900] [Client3] Mesaj publicat pe topic-ul topic/specific: Mesaj privat de la Client3.
+[2025-01-07T17:28:15.820896900] [Client3] Mesaj livrat complet.
+[2025-01-07T17:28:25.833015800] [Client1] Eroare la deconectare: Client is disconnected
+[2025-01-07T17:28:25.836920400] [Client2] Deconectat.
+[2025-01-07T17:28:25.839434700] [Client3] Deconectat.

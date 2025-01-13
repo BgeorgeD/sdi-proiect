@@ -1,0 +1,6 @@
+listener 1883
+allow_anonymous true
+
+connection bridge_to_A
+address <iplocal>:1883
+topic # both 0
